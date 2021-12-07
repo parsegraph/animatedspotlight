@@ -1,8 +1,8 @@
-import {assert} from "chai";
-import todo from "../dist/parsegraph-animatedspotlight";
+import { assert } from "chai";
+import AnimatedSpotlight from "../dist/parsegraph-animatedspotlight";
 
-describe("Package", function () {
-  it("works", ()=>{
-    assert.equal(todo(), 42);
+describe("AnimatedSpotlight", function () {
+  it("works", () => {
+    assert.ok(new AnimatedSpotlight());
   });
 });

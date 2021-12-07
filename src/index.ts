@@ -1,4 +1,3 @@
-// TODO Implement this.
-export default function todo() {
-  return 42;
-}
+import AnimatedSpotlight from "./AnimatedSpotlight";
+
+export default AnimatedSpotlight;
