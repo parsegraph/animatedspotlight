@@ -1,19 +1,19 @@
 {
-  "name": "parsegraph-TODO-PACKAGE-NAME",
+  "name": "parsegraph-animatedspotlight",
   "version": "1.6.0",
   "description": "node",
-  "main": "dist/parsegraph-TODO-PACKAGE-NAME.js",
-  "types": "dist/parsegraph-TODO-PACKAGE-NAME.d.ts",
+  "main": "dist/parsegraph-animatedspotlight.js",
+  "types": "dist/parsegraph-animatedspotlight.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/parsegraph/TODO-PACKAGE-NAME.git"
+    "url": "git+ssh://git@github.com/parsegraph/animatedspotlight.git"
   },
   "author": "Rainback, Inc.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/parsegraph/TODO-PACKAGE-NAME/issues"
+    "url": "https://github.com/parsegraph/animatedspotlight/issues"
   },
-  "homepage": "https://github.com/parsegraph/TODO-PACKAGE-NAME#readme",
+  "homepage": "https://github.com/parsegraph/animatedspotlight#readme",
   "dependencies": {
   }
 }
