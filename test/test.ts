@@ -1,10 +1,9 @@
 import { assert } from "chai";
-import todo from "../src/index";
+import AnimatedSpotlight from "../src/index";
 
-describe("Package", function () {
+describe("AnimatedSpotlight", function () {
   it("works", () => {
-    assert.equal(typeof todo(), "string");
-    console.log(todo());
-    assert.isTrue(todo().indexOf("Hello") >= 0);
+    assert.ok(new AnimatedSpotlight());
   });
 });
+
