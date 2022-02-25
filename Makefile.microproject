@@ -96,7 +96,7 @@ tar-prod: parsegraph-$(DIST_NAME)-prod.tgz
 .PHONY: tar
 
 wait:
-	inotifywait -e modify -r $(CONFIG_FILES) $(SCRIPT_FILES) $(EXTRA_SCRIPTS)
+	./wait.sh $(CONFIG_FILES) $(SCRIPT_FILES) $(EXTRA_SCRIPTS)
 .PHONY: wait
 
 clean:
