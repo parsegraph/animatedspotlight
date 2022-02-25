@@ -6,4 +6,3 @@ describe("AnimatedSpotlight", function () {
     assert.ok(new AnimatedSpotlight());
   });
 });
-
