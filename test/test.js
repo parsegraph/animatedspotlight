@@ -1,5 +1,5 @@
 import { assert } from "chai";
-import AnimatedSpotlight from "../dist/parsegraph-animatedspotlight";
+import AnimatedSpotlight from "../src/index";
 
 describe("AnimatedSpotlight", function () {
   it("works", () => {
