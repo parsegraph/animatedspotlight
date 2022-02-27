@@ -1,11 +1,12 @@
-import todo from ".";
+import AnimatedSpotlight from ".";
 
 document.addEventListener("DOMContentLoaded", () => {
   const root = document.getElementById("demo");
   root.style.position = "relative";
 
+  const as = new AnimatedSpotlight(null);
   const container = document.createElement("div");
-  container.innerHTML = `${todo()}`;
+  container.innerHTML = `${as}`;
   container.style.position = "absolute";
   container.style.left = "0px";
   container.style.top = "0px";
