@@ -15,6 +15,15 @@
           height: 100%;
       }
   </style>
+  <title>graphpainter</title>
+  <script src="parsegraph-log.js"></script>
+  <script>
+    parsegraph_log.connectLog("wss://fritocomp.aaronfaanes/log");
+  </script>
+  <script src="parsegraph-checkglerror.js"></script>
+  <script>
+    parsegraph_checkglerror.setIgnoreGLErrors(true);
+  </script>
 </head>
 <body>
     <div style="width: 100vw; height: 100vh">

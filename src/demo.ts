@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const as = new AnimatedSpotlight(null);
   const container = document.createElement("div");
-  container.innerHTML = `${as}`;
+  container.innerHTML = `${JSON.stringify(as)}`;
   container.style.position = "absolute";
   container.style.left = "0px";
   container.style.top = "0px";
