@@ -17,11 +17,11 @@
   "dependencies": {
     "parsegraph-animator": "^1.5.7",
     "parsegraph-color": "^1.4.7",
-    "parsegraph-layout": "^1.7.14",
+    "parsegraph-layout": "^1.7.15",
     "parsegraph-lerp": "^1.5.9",
     "parsegraph-matrix": "^1.4.11",
     "parsegraph-smoothstep": "^1.4.4",
-    "parsegraph-spotlightpainter": "^2.3.5",
+    "parsegraph-spotlightpainter": "^2.3.6",
     "parsegraph-window": "^1.8.8"
   },
   "devDependencies": {
