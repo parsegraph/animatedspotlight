@@ -3919,6 +3919,14 @@ parsegraph-direction@^2.0.5:
     parsegraph-generateid "^1.4.8"
     parsegraph-timing "^1.4.11"
 
+parsegraph-direction@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/parsegraph-direction/-/parsegraph-direction-2.0.6.tgz#4ff9be580d5a9071e5400a47564743cd863723fd"
+  integrity sha512-FQD6AZxUzSEWSnh/11z1HP5L/ZYFmGrkx+4ESBaQMyEHeG5/A3zMM9JZrzmT4RuptHpHuYJthxEZlyG8TBdp8w==
+  dependencies:
+    parsegraph-generateid "^1.4.8"
+    parsegraph-timing "^1.4.12"
+
 parsegraph-extent@^1.4.11:
   version "1.4.11"
   resolved "https://registry.yarnpkg.com/parsegraph-extent/-/parsegraph-extent-1.4.11.tgz#766f0fccb5ce864c4652488fdd389319f5552ca6"
@@ -3950,26 +3958,21 @@ parsegraph-input@^1.6.5:
     parsegraph-matrix "^1.4.11"
     parsegraph-normalizewheel "^1.4.7"
 
-parsegraph-layout@^1.7.15:
-  version "1.7.15"
-  resolved "https://registry.yarnpkg.com/parsegraph-layout/-/parsegraph-layout-1.7.15.tgz#7d5023f411bc1335d3ca5b5fb337bb3fb84a6c55"
-  integrity sha512-jp9CLU5512IDM+LF5hWSjdHc+16OR48b9FBVzjdqaAosYr91rMezJVV5GC/Ez6D6jzr6mPOFdSUmvkqpm5zALQ==
+parsegraph-layout@^1.7.16:
+  version "1.7.16"
+  resolved "https://registry.yarnpkg.com/parsegraph-layout/-/parsegraph-layout-1.7.16.tgz#3a8f19613051aa6ad8a08dedad4b5a7322c846bf"
+  integrity sha512-cse0lWv6Oqz+QAiR4tB7rZ1TXvpuPNqxMuwqdrjiFYPdLyclevT5ZJ3dosG/dxT8Wnsj2idMu4526qK6jkqeDA==
   dependencies:
-    parsegraph-direction "^2.0.5"
+    parsegraph-direction "^2.0.6"
     parsegraph-extent "^1.4.11"
     parsegraph-rect "^1.4.7"
     parsegraph-size "^1.5.8"
-    parsegraph-timing "^1.4.11"
+    parsegraph-timing "^1.4.12"
 
 parsegraph-lerp@^1.5.9:
   version "1.5.9"
   resolved "https://registry.yarnpkg.com/parsegraph-lerp/-/parsegraph-lerp-1.5.9.tgz#d8c8f031260c3980f3a9bca03a135d70ea580aa5"
   integrity sha512-ryulARHH6cDxJwvrlWqA8XxtGg0bYK6rdCyu1zcRlK6jRi+w9WebmZiYuUPJ9TGHnfKOJOie2cgPX/Eq4orApA==
-
-parsegraph-log@^1.7.3:
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/parsegraph-log/-/parsegraph-log-1.7.3.tgz#26ad2058833679439e5668e7d8a1c80c59c06ac8"
-  integrity sha512-uYC4Gnuo+sPheo45bkZ5ehqAzyHDFqqIr7k4OZcQ7hTSiMCmHaiJFYhJpvOPOJrUWw7xwJt1G6e2U0korekwLg==
 
 parsegraph-matrix@^1.4.10, parsegraph-matrix@^1.4.11:
   version "1.4.11"
