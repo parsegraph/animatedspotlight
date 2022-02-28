@@ -4331,29 +4331,10 @@ parsegraph-animator@^1.5.6:
   resolved "https://registry.yarnpkg.com/parsegraph-animator/-/parsegraph-animator-1.5.6.tgz#8921db7c29c30fbfa62c1a33089368ce5db7df7c"
   integrity sha512-kMX60ZthM7wngF4tsPXfaUs2YIqnFrUpO4A+Hoyy0NlRuDVfVBXKyYrvAc93rFp4koSuisZkwOPHKsH2+zxVKg==
 
-parsegraph-checkglerror@^1.5.2:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/parsegraph-checkglerror/-/parsegraph-checkglerror-1.5.2.tgz#f47cbfeb785ba4c65b03465fbccde4be9659b617"
-  integrity sha512-sGzX99/LeHCNOayN4eApik6OTu/gBxh/9WJp+AvQFhwDzpAiAXNXqqWM3+rnHCWTBufPL6fpX/c/OsbTJY73Cw==
-
-parsegraph-color@^1.4.4:
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/parsegraph-color/-/parsegraph-color-1.4.5.tgz#a0ec9d07f7f28cef3d56c0bfd8d122dc18ce2666"
-  integrity sha512-IBPbq5No5uNRteu2Duzd5g5dnGAHTYiUekH9gTCPtkMooONufFJwbjR4uv9VL7VCEzELRPeFz+pshwEFvrvg+Q==
-
 parsegraph-color@^1.4.6:
   version "1.4.6"
   resolved "https://registry.yarnpkg.com/parsegraph-color/-/parsegraph-color-1.4.6.tgz#678f464cc531e19b7bdf4480135e37dd858520bd"
   integrity sha512-gOMXt8dTANqumQ/ZiGShRALtLcAYIKFDW9t5FU0bIiJUEodT4OoOGnXhrbhRuRTUVo7uJmdJLH1MEH+Ch7muWg==
-
-parsegraph-compileprogram@^2.1.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/parsegraph-compileprogram/-/parsegraph-compileprogram-2.2.1.tgz#428f73251d9d594a8270c86dab5021d17e9faaff"
-  integrity sha512-jbqn4fEoT4Cw0+arjZgNQ8K7QTfqg6nQFvRuPuZwDkYD+N8LKMIn25izVsJ5xJ3ZGFFpfzPcNqmeW09xrz9EcA==
-  dependencies:
-    parsegraph-color "^1.4.4"
-    parsegraph-rect "^1.4.5"
-    parsegraph-shader "^1.5.2"
 
 parsegraph-compileprogram@^2.2.3:
   version "2.2.3"
@@ -4425,11 +4406,6 @@ parsegraph-lerp@^1.5.7:
   resolved "https://registry.yarnpkg.com/parsegraph-lerp/-/parsegraph-lerp-1.5.7.tgz#ebb6883c8cedb1863e3ebd7057dfe485434c66f5"
   integrity sha512-slhMz38aQcuFQi9Hokn5iiuwrhXI1xH74T8NUYw+STDhtfL+/WZuXxjYdbrOYentafZNkYetd3YYfrNlNXSr/A==
 
-parsegraph-log@^1.7.2:
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/parsegraph-log/-/parsegraph-log-1.7.2.tgz#26dd304e8f1ea2c0d413170ae518ef0a2130a495"
-  integrity sha512-j2nYy9l5A4047maMuyp01oU3c2QB0mjm5qON7aSbjpMDqSkHes4puxMEMo32w0GcYej08MmrelqVn0sk1TogDw==
-
 parsegraph-matrix@^1.4.10:
   version "1.4.10"
   resolved "https://registry.yarnpkg.com/parsegraph-matrix/-/parsegraph-matrix-1.4.10.tgz#d73b665839d2eca693ab93bfe6b1ddf24084a408"
@@ -4455,10 +4431,10 @@ parsegraph-pagingbuffer@^2.1.1:
   resolved "https://registry.yarnpkg.com/parsegraph-pagingbuffer/-/parsegraph-pagingbuffer-2.1.1.tgz#c03dbb8599384bd766299be0a155434493a41d7c"
   integrity sha512-DhVXFh6MCDUkGQ3gJncjyVMmBnW1BOXxokf8FET5MuCH08GREBGVweOaIYPYqLZRdSOyiThdlG0MSM5W9+EWbg==
 
-parsegraph-projector@^1.8.1:
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/parsegraph-projector/-/parsegraph-projector-1.8.1.tgz#13fc19759fd0bedcce66fc5f591d816ab051744b"
-  integrity sha512-zMqIf/aY1fQysmEubKVkS1s0m/k9+np4SF+lp5V/P7Nld/OboP7jOF9d0OJiQWrC1O7cG7HoOY6BaOQlEwv4IQ==
+parsegraph-projector@^1.8.2:
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/parsegraph-projector/-/parsegraph-projector-1.8.2.tgz#aff6169e14aa776e80f4f38ffe7553fd2a24ada3"
+  integrity sha512-V/Hu9kDFjkqWywnZFnxjK6igQWPQSVKLbwQYperRqiAzkTVfvAOKGW9L3wTeV7dLaJlbV/QSHMIUxXN84t6WjA==
   dependencies:
     parsegraph-compileprogram "^2.2.3"
     parsegraph-matrix "^1.4.10"
@@ -4467,20 +4443,10 @@ parsegraph-projector@^1.8.1:
     parsegraph-timing "^1.4.9"
     parsegraph-timingbelt "^1.7.3"
 
-parsegraph-rect@^1.4.5:
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/parsegraph-rect/-/parsegraph-rect-1.4.5.tgz#aad0401b4c22381231014fd558ea967e01cdb45f"
-  integrity sha512-hgsP9N15mYeSISgeMU2l1GHJEjAouuFgdQW89EGTav8ntM93xC628Lz5+mYvx/mljbuC5lR/OBSw6EuV0A9GxA==
-
 parsegraph-rect@^1.4.6:
   version "1.4.6"
   resolved "https://registry.yarnpkg.com/parsegraph-rect/-/parsegraph-rect-1.4.6.tgz#33d882683c12647a2c7db6e09183e6a192486d97"
   integrity sha512-YvmNRLT0RxmcpUKhZwZ86dYMrQeEKETwg5A4IkJivuSNL7xK7ao4IgBIpfmyuyp/lIjMBOkqovc8/1OzR3O66g==
-
-parsegraph-shader@^1.5.2:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/parsegraph-shader/-/parsegraph-shader-1.5.2.tgz#5f1fcaeb5a4b5869a608bd4ad7e5e397d88293ff"
-  integrity sha512-k19AHq6V0jguaa9By+Cd5pV8w6RCzIr2Dadq2OFarsmcO0aShOWQ3Fp97QTSM+CQL4l99TNwBK7GDVS1AMXI+A==
 
 parsegraph-shader@^1.5.5:
   version "1.5.5"
@@ -4506,6 +4472,14 @@ parsegraph-spotlightpainter@^2.3.4:
     parsegraph-compileprogram "^2.2.3"
     parsegraph-matrix "^1.4.10"
     parsegraph-pagingbuffer "^2.1.1"
+
+parsegraph-timing@^1.4.10:
+  version "1.4.10"
+  resolved "https://registry.yarnpkg.com/parsegraph-timing/-/parsegraph-timing-1.4.10.tgz#3db6707fa33aa1aed1e293c2510e7dbfbc8e7717"
+  integrity sha512-/VSRZ49vlUSP63UuxZtaUWipLOyaREb6zvnW110V67Mvj5W57+6qX4OhHYbrzbWNm1MVSMRssHfevA5pOB1tmA==
+  dependencies:
+    parsegraph-gettimeinmillis "^1.4.5"
+    parsegraph-method "^1.4.20"
 
 parsegraph-timing@^1.4.9:
   version "1.4.9"
@@ -4549,20 +4523,20 @@ parsegraph-timingbelt@^1.7.3:
     webpack "^5.65.0"
     webpack-cli "^4.9.1"
 
-parsegraph-window@^1.8.1:
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/parsegraph-window/-/parsegraph-window-1.8.1.tgz#0381718db48f4772ce4f6531fd5f9b8cff2c82bc"
-  integrity sha512-lVlJVduY/jMmXaWz9ubrtr9TQbxhCehwuRG+sJp9KYIMz87uwDXCJUxNLjt+FyleaY89kMpa6kDVt5OyaLqDDw==
+parsegraph-window@^1.8.2:
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/parsegraph-window/-/parsegraph-window-1.8.2.tgz#941dabfb4f943b874430adc125a11cb3a05c82ae"
+  integrity sha512-a1pabSNNErbURrUyYdCuDvM4zMSjxeEfA5UPJK7ZeQBNUq+PGAx6uPa9EiuBCBWstzHgHXqRL9aqKjHVIxWwDA==
   dependencies:
     parsegraph-color "^1.4.6"
-    parsegraph-compileprogram "^2.1.1"
+    parsegraph-compileprogram "^2.2.3"
     parsegraph-input "^1.6.3"
     parsegraph-matrix "^1.4.10"
     parsegraph-method "^1.4.20"
     parsegraph-normalizewheel "^1.4.4"
-    parsegraph-projector "^1.8.1"
+    parsegraph-projector "^1.8.2"
     parsegraph-rect "^1.4.6"
-    parsegraph-timing "^1.4.9"
+    parsegraph-timing "^1.4.10"
     parsegraph-timingbelt "^1.7.3"
 
 path-exists@^3.0.0:

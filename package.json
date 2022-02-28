@@ -22,7 +22,7 @@
     "parsegraph-matrix": "^1.4.10",
     "parsegraph-smoothstep": "^1.4.3",
     "parsegraph-spotlightpainter": "^2.3.4",
-    "parsegraph-window": "^1.8.1"
+    "parsegraph-window": "^1.8.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.3",
