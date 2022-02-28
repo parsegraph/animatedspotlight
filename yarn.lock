@@ -9,27 +9,10 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.0"
 
-"@babel/cli@^7.12.10":
+"@babel/cli@^7.12.10", "@babel/cli@^7.17.6":
   version "7.17.6"
   resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.17.6.tgz#169e5935f1795f0b62ded5a2accafeedfe5c5363"
   integrity sha512-l4w608nsDNlxZhiJ5tE3DbNmr61fIKMZ6fTBo171VEFuFMIYuJ3mHRhTLEkKKyvx2Mizkkv/0a8OJOnZqkKYNA==
-  dependencies:
-    "@jridgewell/trace-mapping" "^0.3.4"
-    commander "^4.0.1"
-    convert-source-map "^1.1.0"
-    fs-readdir-recursive "^1.1.0"
-    glob "^7.0.0"
-    make-dir "^2.1.0"
-    slash "^2.0.0"
-    source-map "^0.5.0"
-  optionalDependencies:
-    "@nicolo-ribaudo/chokidar-2" "2.1.8-no-fsevents.3"
-    chokidar "^3.4.0"
-
-"@babel/cli@^7.17.3":
-  version "7.17.3"
-  resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.17.3.tgz#0ccb93a348d0e3a4ff8776a63dbeefd329f7b3cc"
-  integrity sha512-1+WRlh1IqLocOp122CLx4if345RSHMspwIZNJTlqG/GA46HVZC6p49N1kolfdd2/GOdr+tu4nScbAR3ACJ2ZiA==
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.4"
     commander "^4.0.1"
@@ -2568,13 +2551,6 @@ escodegen@^2.0.0:
   optionalDependencies:
     source-map "~0.6.1"
 
-esdoc-typescript-plugin@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/esdoc-typescript-plugin/-/esdoc-typescript-plugin-1.0.1.tgz#d4b929677f2ee5587a86ec70e766537040b98662"
-  integrity sha512-QV9rdis5PkypVK1fh2wuESZPQZUVjTwt4hj97Pivb9M8wGPMOTxYu5ofkyGWm3xgNL+K0VxZY6TGEO07kfGAtg==
-  dependencies:
-    typescript "^2.8.3"
-
 eslint-config-google@^0.14.0:
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/eslint-config-google/-/eslint-config-google-0.14.0.tgz#4f5f8759ba6e11b424294a219dbfa18c508bcc1a"
@@ -4372,11 +4348,6 @@ parsegraph-generateid@^1.4.7:
   resolved "https://registry.yarnpkg.com/parsegraph-generateid/-/parsegraph-generateid-1.4.7.tgz#d9636e891837ac8b579f29c6ff2fb9c3e9624cd3"
   integrity sha512-GJne91gMUMUStaypi8mKCXrUzf0DKSROBXakOQob7mx765iQsIGzxbsXFL2Vk2+FcvGdLyIzTtiAgrghg5GDAA==
 
-parsegraph-gettimeinmillis@^1.4.3:
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/parsegraph-gettimeinmillis/-/parsegraph-gettimeinmillis-1.4.3.tgz#888152b73c425f1ffca860b16a68af7691399d12"
-  integrity sha512-qon9TkxxwEVy1U4rRBya91aqoOPKctvBUIGF6t5sB0itQZENKjbHaJzv1Vl7+qHUCGp10KiQmJ9MAvfkMMXfUA==
-
 parsegraph-gettimeinmillis@^1.4.5:
   version "1.4.5"
   resolved "https://registry.yarnpkg.com/parsegraph-gettimeinmillis/-/parsegraph-gettimeinmillis-1.4.5.tgz#b2bb3c8351b4fa827a3e4a4f404336b2f3366493"
@@ -4411,17 +4382,12 @@ parsegraph-matrix@^1.4.10:
   resolved "https://registry.yarnpkg.com/parsegraph-matrix/-/parsegraph-matrix-1.4.10.tgz#d73b665839d2eca693ab93bfe6b1ddf24084a408"
   integrity sha512-LRmS9gi1XY+q7/KMj61ySnXYnd7MK+KPz1Pjk617fWlcSn1NvZIbAzRhkJXeta9SLBuf+GrX2yNg9LgNcqFdKA==
 
-parsegraph-method@^1.4.10, parsegraph-method@^1.4.20, parsegraph-method@^1.4.9:
+parsegraph-method@^1.4.10, parsegraph-method@^1.4.20:
   version "1.4.20"
   resolved "https://registry.yarnpkg.com/parsegraph-method/-/parsegraph-method-1.4.20.tgz#89097ebded9abab1691365c059fcfd48a0682213"
   integrity sha512-LFqTsUhgN1k6UOBMvbPNL8vBMWeWfP1bBFqcEFbA6iNxt5X7q6XsaOCUAAAB0lf87Wt7rX9Go1HA2PrdO8P7mQ==
 
-parsegraph-normalizewheel@^1.4.4:
-  version "1.4.4"
-  resolved "https://registry.yarnpkg.com/parsegraph-normalizewheel/-/parsegraph-normalizewheel-1.4.4.tgz#20e15744f5383d24a22e0bc230c2d592a958007c"
-  integrity sha512-QrgF4/gXHNP57eNThgXuiK5Os6V5YjVTyTpDRDHxV9/5Aa+KYEPjg4updfoiGK377eBJ6R6oZv8NMNURVsw2OA==
-
-parsegraph-normalizewheel@^1.4.6:
+parsegraph-normalizewheel@^1.4.4, parsegraph-normalizewheel@^1.4.6:
   version "1.4.6"
   resolved "https://registry.yarnpkg.com/parsegraph-normalizewheel/-/parsegraph-normalizewheel-1.4.6.tgz#9f64ff45d72a5fac73a34946505d0799d54fdb14"
   integrity sha512-B9J2WufswsVvjjRWpO/x2GhjpbE4O/gQjkkW2l4HaIjeJYecf00QE5QULjIanmRk+87qFpYtOstu7oWson/llQ==
@@ -4431,19 +4397,7 @@ parsegraph-pagingbuffer@^2.1.1:
   resolved "https://registry.yarnpkg.com/parsegraph-pagingbuffer/-/parsegraph-pagingbuffer-2.1.1.tgz#c03dbb8599384bd766299be0a155434493a41d7c"
   integrity sha512-DhVXFh6MCDUkGQ3gJncjyVMmBnW1BOXxokf8FET5MuCH08GREBGVweOaIYPYqLZRdSOyiThdlG0MSM5W9+EWbg==
 
-parsegraph-projector@^1.8.2:
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/parsegraph-projector/-/parsegraph-projector-1.8.2.tgz#aff6169e14aa776e80f4f38ffe7553fd2a24ada3"
-  integrity sha512-V/Hu9kDFjkqWywnZFnxjK6igQWPQSVKLbwQYperRqiAzkTVfvAOKGW9L3wTeV7dLaJlbV/QSHMIUxXN84t6WjA==
-  dependencies:
-    parsegraph-compileprogram "^2.2.3"
-    parsegraph-matrix "^1.4.10"
-    parsegraph-method "^1.4.10"
-    parsegraph-rect "^1.4.6"
-    parsegraph-timing "^1.4.9"
-    parsegraph-timingbelt "^1.7.3"
-
-parsegraph-projector@^1.8.6:
+parsegraph-projector@^1.8.5, parsegraph-projector@^1.8.6:
   version "1.8.7"
   resolved "https://registry.yarnpkg.com/parsegraph-projector/-/parsegraph-projector-1.8.7.tgz#cbdb285ee924e4857669dcc090d7346b8013ed94"
   integrity sha512-0alwh7TgUh8N10gPw/sz1d1qSw3oNu0o7aiHHavoq/hA07YtHMro2c5gxKzHw3pwZxkHgM1e8BW2vmqm/Rh2gA==
@@ -4493,48 +4447,6 @@ parsegraph-timing@^1.4.10:
     parsegraph-gettimeinmillis "^1.4.5"
     parsegraph-method "^1.4.20"
 
-parsegraph-timing@^1.4.9:
-  version "1.4.9"
-  resolved "https://registry.yarnpkg.com/parsegraph-timing/-/parsegraph-timing-1.4.9.tgz#48deb90b39e88f51eeedeeb9f24d0d3637f38b14"
-  integrity sha512-tu5s98rL87ieXdZC3+NNhjjBqjSn4yWoRl7HNOnDpThmY2tB9RW9IhVNGstd82gtKt7yc19Kiy3JRdnIt0749w==
-  dependencies:
-    esdoc-typescript-plugin "^1.0.1"
-    parsegraph-gettimeinmillis "^1.4.3"
-    parsegraph-method "^1.4.9"
-
-parsegraph-timingbelt@^1.7.3:
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/parsegraph-timingbelt/-/parsegraph-timingbelt-1.7.3.tgz#80d76745db6e9129c8176071994ca5a4ff01ef02"
-  integrity sha512-4wr7DyVl/eTeA9gRCZ6FVuvdiJhy+MVS6yXbbyAfZuXjPdSOPpaUyX5P3JNHqMWsmIwxEbLLocgFUgiaQC/LfQ==
-  dependencies:
-    "@babel/cli" "^7.12.10"
-    "@babel/core" "^7.12.10"
-    "@babel/plugin-proposal-class-properties" "^7.10.4"
-    "@babel/plugin-proposal-private-property-in-object" "^7.16.5"
-    "@babel/preset-env" "^7.12.11"
-    "@babel/preset-typescript" "^7.10.4"
-    "@babel/register" "^7.12.10"
-    "@types/chai" "^4.3.0"
-    "@typescript-eslint/eslint-plugin" "^4.11.0"
-    "@typescript-eslint/parser" "^4.11.0"
-    babel-loader "^8.1.0"
-    eslint "^7.16.0"
-    eslint-config-google "^0.14.0"
-    eslint-config-prettier "^7.1.0"
-    jsdom "16.4.0"
-    jsdom-global "3.0.2"
-    parsegraph-method "^1.4.20"
-    parsegraph-timing "^1.4.9"
-    prettier "2.1.2"
-    raw-loader "^4.0.1"
-    source-map-loader "^1.0.2"
-    source-map-support "^0.5.19"
-    ts-loader "^9.2.6"
-    ts-node "^9.1.1"
-    typescript "^4.1.3"
-    webpack "^5.65.0"
-    webpack-cli "^4.9.1"
-
 parsegraph-timingbelt@^1.7.4:
   version "1.7.4"
   resolved "https://registry.yarnpkg.com/parsegraph-timingbelt/-/parsegraph-timingbelt-1.7.4.tgz#d22e7136b9f0d7addfe968786fe9ccfec7af4dc3"
@@ -4568,10 +4480,10 @@ parsegraph-timingbelt@^1.7.4:
     webpack "^5.65.0"
     webpack-cli "^4.9.1"
 
-parsegraph-window@^1.8.2:
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/parsegraph-window/-/parsegraph-window-1.8.2.tgz#941dabfb4f943b874430adc125a11cb3a05c82ae"
-  integrity sha512-a1pabSNNErbURrUyYdCuDvM4zMSjxeEfA5UPJK7ZeQBNUq+PGAx6uPa9EiuBCBWstzHgHXqRL9aqKjHVIxWwDA==
+parsegraph-window@^1.8.7:
+  version "1.8.7"
+  resolved "https://registry.yarnpkg.com/parsegraph-window/-/parsegraph-window-1.8.7.tgz#8ac8f9fa05bb74fee87fbe0b44feed007e024a50"
+  integrity sha512-BGsVGbKiRoBdnecz0ZZPamKuF9etaTfyxw6wafuXfhAcMqDoTlsbPFtX+2Sjto96yNYxkbxUyBBlkqog9xgKqg==
   dependencies:
     parsegraph-color "^1.4.6"
     parsegraph-compileprogram "^2.2.3"
@@ -4579,10 +4491,10 @@ parsegraph-window@^1.8.2:
     parsegraph-matrix "^1.4.10"
     parsegraph-method "^1.4.20"
     parsegraph-normalizewheel "^1.4.4"
-    parsegraph-projector "^1.8.2"
+    parsegraph-projector "^1.8.5"
     parsegraph-rect "^1.4.6"
     parsegraph-timing "^1.4.10"
-    parsegraph-timingbelt "^1.7.3"
+    parsegraph-timingbelt "^1.7.4"
 
 path-exists@^3.0.0:
   version "3.0.0"
@@ -5426,11 +5338,6 @@ typedoc@^0.22.11:
     marked "^4.0.10"
     minimatch "^3.0.4"
     shiki "^0.10.0"
-
-typescript@^2.8.3:
-  version "2.9.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.9.2.tgz#1cbf61d05d6b96269244eb6a3bce4bd914e0f00c"
-  integrity sha512-Gr4p6nFNaoufRIY4NMdpQRNmgxVIGMs4Fcu/ujdYk3nAZqk7supzBE9idmvfZIlH/Cuj//dvi+019qEue9lV0w==
 
 typescript@^4.1.3, typescript@^4.5.5:
   version "4.5.5"
