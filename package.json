@@ -22,7 +22,7 @@
     "parsegraph-matrix": "^1.4.11",
     "parsegraph-smoothstep": "^1.4.4",
     "parsegraph-spotlightpainter": "^2.3.6",
-    "parsegraph-window": "^1.8.8"
+    "parsegraph-window": "^1.8.9"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
@@ -46,11 +46,11 @@
     "jest": "^27.5.1",
     "jsdom": "^19.0.0",
     "jsdom-global": "^3.0.2",
-    "parsegraph-direction": "^2.0.4",
+    "parsegraph-direction": "^2.0.5",
     "parsegraph-method": "^1.4.20",
-    "parsegraph-projector": "^1.8.8",
-    "parsegraph-timing": "^1.4.11",
-    "parsegraph-timingbelt": "^1.7.5",
+    "parsegraph-projector": "^1.8.9",
+    "parsegraph-timing": "^1.4.12",
+    "parsegraph-timingbelt": "^1.7.6",
     "prettier": "^2.5.1",
     "raw-loader": "^4.0.2",
     "source-map-loader": "^3.0.1",
