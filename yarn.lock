@@ -3896,6 +3896,11 @@ parsegraph-animator@^1.5.7:
   resolved "https://registry.yarnpkg.com/parsegraph-animator/-/parsegraph-animator-1.5.7.tgz#ffe8f0570774079d7d9102909eb53709ca330ddb"
   integrity sha512-BBP2xNpXSbynOsIIIdOMk7WlbTOD7G4LN6SXw1dihP2zK2561j8oQRAvQ1QwxjPhKYdfzymKxzP4Te33OtXWFw==
 
+parsegraph-checkglerror@^1.5.3:
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/parsegraph-checkglerror/-/parsegraph-checkglerror-1.5.3.tgz#e3f55c6d014308cf7450fcf3ff7b4a8d0b799f3e"
+  integrity sha512-oC6zJlN6jmYw0EN4UEef56mOQclxfo7NPHehZpgg0lmvB4IsipxRmBN87wJneF8uOCx9lqhZd5F7hajGw8WTGw==
+
 parsegraph-color@^1.4.7:
   version "1.4.7"
   resolved "https://registry.yarnpkg.com/parsegraph-color/-/parsegraph-color-1.4.7.tgz#8aa69bd3c93fa8bcc36f6783893716bd752fba87"
@@ -3965,6 +3970,11 @@ parsegraph-lerp@^1.5.9:
   version "1.5.9"
   resolved "https://registry.yarnpkg.com/parsegraph-lerp/-/parsegraph-lerp-1.5.9.tgz#d8c8f031260c3980f3a9bca03a135d70ea580aa5"
   integrity sha512-ryulARHH6cDxJwvrlWqA8XxtGg0bYK6rdCyu1zcRlK6jRi+w9WebmZiYuUPJ9TGHnfKOJOie2cgPX/Eq4orApA==
+
+parsegraph-log@^1.7.3:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/parsegraph-log/-/parsegraph-log-1.7.3.tgz#26ad2058833679439e5668e7d8a1c80c59c06ac8"
+  integrity sha512-uYC4Gnuo+sPheo45bkZ5ehqAzyHDFqqIr7k4OZcQ7hTSiMCmHaiJFYhJpvOPOJrUWw7xwJt1G6e2U0korekwLg==
 
 parsegraph-matrix@^1.4.10, parsegraph-matrix@^1.4.11:
   version "1.4.11"
