@@ -17,12 +17,12 @@
   "dependencies": {
     "parsegraph-animator": "^1.5.6",
     "parsegraph-color": "^1.4.6",
-    "parsegraph-layout": "^1.7.10",
+    "parsegraph-layout": "^1.7.12",
     "parsegraph-lerp": "^1.5.7",
     "parsegraph-matrix": "^1.4.10",
     "parsegraph-smoothstep": "^1.4.3",
     "parsegraph-spotlightpainter": "^2.3.4",
-    "parsegraph-window": "^1.7.5"
+    "parsegraph-window": "^1.8.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.3",
