@@ -3919,6 +3919,14 @@ parsegraph-direction@^2.0.7:
     parsegraph-generateid "^1.4.8"
     parsegraph-timing "^1.4.13"
 
+parsegraph-direction@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/parsegraph-direction/-/parsegraph-direction-2.0.8.tgz#108c8b6385f5d5bc54741935f12518d595e15c69"
+  integrity sha512-TLT01lTe51HKKR1vC0sEWxvk0VhcT5BxGTnOQU+SGYFJN4SU080N+2WuL2L7gDYGLqMnLpgMIvirqzmYjSXKUw==
+  dependencies:
+    parsegraph-generateid "^1.4.8"
+    parsegraph-timing "^1.4.14"
+
 parsegraph-extent@^1.4.11:
   version "1.4.11"
   resolved "https://registry.yarnpkg.com/parsegraph-extent/-/parsegraph-extent-1.4.11.tgz#766f0fccb5ce864c4652488fdd389319f5552ca6"
@@ -3950,16 +3958,16 @@ parsegraph-input@^1.6.5:
     parsegraph-matrix "^1.4.11"
     parsegraph-normalizewheel "^1.4.7"
 
-parsegraph-layout@^1.7.17:
-  version "1.7.17"
-  resolved "https://registry.yarnpkg.com/parsegraph-layout/-/parsegraph-layout-1.7.17.tgz#8c0824ea318437869d37791305438a9a76fb4f58"
-  integrity sha512-End7ywla5BTrLVvHFMzwJCd/v83NSzDKfYPxUwb8uoQygW5u2JUhadkSaj5KxX/8KQ6dnbcung9/VDQNeNOV+Q==
+parsegraph-layout@^1.7.18:
+  version "1.7.18"
+  resolved "https://registry.yarnpkg.com/parsegraph-layout/-/parsegraph-layout-1.7.18.tgz#1162e10b55e48f0d49bacc0ef75c86b9227867ba"
+  integrity sha512-uj2M2TGXYfDMTiFNbRybCTpjqDjHSD85IKu2RMrDUUtBkiHlmI/vORIVkPDhHOiPJow+fAVTfNJjGDE+cqWvUg==
   dependencies:
-    parsegraph-direction "^2.0.7"
+    parsegraph-direction "^2.0.8"
     parsegraph-extent "^1.4.11"
     parsegraph-rect "^1.4.7"
     parsegraph-size "^1.5.8"
-    parsegraph-timing "^1.4.13"
+    parsegraph-timing "^1.4.14"
 
 parsegraph-lerp@^1.5.9:
   version "1.5.9"
