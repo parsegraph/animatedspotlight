@@ -15,18 +15,6 @@
   },
   "homepage": "https://github.com/parsegraph/animatedspotlight#readme",
   "dependencies": {
-    "parsegraph-animator": "^1.5.7",
-    "parsegraph-color": "^1.4.7",
-    "parsegraph-direction": "^2.0.8",
-    "parsegraph-layout": "^1.7.18",
-    "parsegraph-lerp": "^1.5.9",
-    "parsegraph-matrix": "^1.4.11",
-    "parsegraph-method": "^1.4.22",
-    "parsegraph-projector": "^1.8.12",
-    "parsegraph-smoothstep": "^1.4.4",
-    "parsegraph-spotlightpainter": "^2.3.7",
-    "parsegraph-timing": "^1.4.15",
-    "parsegraph-timingbelt": "^1.7.9",
     "parsegraph-window": "^1.8.11"
   },
   "devDependencies": {},
