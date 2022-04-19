@@ -6,7 +6,7 @@ import smoothstep from "parsegraph-smoothstep";
 import { Projector, Projected } from "parsegraph-projector";
 import { LayoutNode } from "parsegraph-layout";
 import { Matrix3x3, matrixIdentity3x3 } from "parsegraph-matrix";
-import Method from 'parsegraph-method';
+import Method from "parsegraph-method";
 
 const FOCUSED_SPOTLIGHT_COLOR = new Color(1, 1, 1, 0.5);
 const FOCUSED_SPOTLIGHT_SCALE = 6;
@@ -31,7 +31,7 @@ export default class AnimatedSpotlight implements Projected {
   }
 
   dispose() {
-    this._painters.forEach(painter=>painter.clear());
+    this._painters.forEach((painter) => painter.clear());
     this._painters.clear();
   }
 
@@ -81,22 +81,31 @@ export default class AnimatedSpotlight implements Projected {
   }
 
   restart(toNode: LayoutNode) {
-    //console.log("Restarting", toNode.state().id());
+    // console.log("Restarting", toNode.state().id());
     this.animator().restart();
     this._fromNode = this._toNode;
     this._toNode = toNode;
     this.scheduleUpdate();
   }
 
-  drawSpotlight(projector: Projector, x: number, y: number, srad: number, color: Color) {
-    //console.log(projector, x, y, srad, color);
+  drawSpotlight(
+    projector: Projector,
+    x: number,
+    y: number,
+    srad: number,
+    color: Color
+  ) {
+    // console.log(projector, x, y, srad, color);
     if (!this.focusedNode()) {
       return;
     }
     if (!this._painters.has(projector)) {
-      this._painters.set(projector, new SpotlightPainter(projector.glProvider()));
+      this._painters.set(
+        projector,
+        new SpotlightPainter(projector.glProvider())
+      );
     }
-    //console.log(x, y, srad, color);
+    // console.log(x, y, srad, color);
     this._painters.get(projector).drawSpotlight(x, y, srad, color);
   }
 
@@ -106,7 +115,7 @@ export default class AnimatedSpotlight implements Projected {
 
   animate(projector: Projector, t: number) {
     if (!this.focusedNode()) {
-      //console.log("Not animating");
+      // console.log("Not animating");
       return;
     }
     t = smoothstep(t);
@@ -117,9 +126,9 @@ export default class AnimatedSpotlight implements Projected {
       x = lerp(this._fromNode.value().getLayout().absoluteX(), x, t);
       y = lerp(this._fromNode.value().getLayout().absoluteY(), y, t);
       scale = lerp(this.getSpotlightScale(this._fromNode), scale, t);
-      //console.log(this._fromNode.value().getLayout().absoluteX());
-      //console.log(this._toNode.value().getLayout().absoluteX());
-      //console.log(x, y);
+      // console.log(this._fromNode.value().getLayout().absoluteX());
+      // console.log(this._toNode.value().getLayout().absoluteX());
+      // console.log(x, y);
     }
     this.drawSpotlight(projector, x, y, scale, this._spotlightColor);
   }
@@ -146,8 +155,8 @@ export default class AnimatedSpotlight implements Projected {
     const gl = projector.glProvider().gl();
     gl.viewport(0, 0, projector.width(), projector.height());
     gl.enable(gl.BLEND);
-    //console.log(projector.width(), projector.height());
-    //console.log("Rendering animated spotlight");
+    // console.log(projector.width(), projector.height());
+    // console.log("Rendering animated spotlight");
     if (this.animator().animating()) {
       this.unmount(projector);
       const t = this.animator().t();
@@ -166,7 +175,7 @@ export default class AnimatedSpotlight implements Projected {
     this._scheduleUpdate.call();
   }
 
-  setOnScheduleUpdate(cb:()=>void, cbObj?:object) {
+  setOnScheduleUpdate(cb: () => void, cbObj?: object) {
     this._scheduleUpdate.set(cb, cbObj);
   }
 }

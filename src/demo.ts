@@ -1,10 +1,16 @@
 import AnimatedSpotlight from ".";
-import {Projection, BasicProjector} from "parsegraph-projector";
-import TimingBelt from 'parsegraph-timingbelt';
-import {BasicPositioned, Positioned} from 'parsegraph-layout';
-import Direction, {DirectionNode} from 'parsegraph-direction';
-import Color from 'parsegraph-color';
-import { make2DProjection, makeTranslation3x3, matrixMultiply3x3, Matrix3x3, matrixIdentity3x3 } from "parsegraph-matrix";
+import { Projection, BasicProjector } from "parsegraph-projector";
+import TimingBelt from "parsegraph-timingbelt";
+import { BasicPositioned, Positioned } from "parsegraph-layout";
+import Direction, { DirectionNode } from "parsegraph-direction";
+import Color from "parsegraph-color";
+import {
+  make2DProjection,
+  makeTranslation3x3,
+  matrixMultiply3x3,
+  Matrix3x3,
+  matrixIdentity3x3,
+} from "parsegraph-matrix";
 
 document.addEventListener("DOMContentLoaded", () => {
   const root = document.getElementById("demo");
@@ -35,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
     horizontalPadding: 8,
     verticalSeparation: 10,
     horizontalSeparation: 10,
-  }
+  };
 
   const n = new DirectionNode<Positioned>();
   const npos = new BasicPositioned(n);
@@ -57,8 +63,15 @@ document.addEventListener("DOMContentLoaded", () => {
     container.style.left = `${Math.random() * root.clientWidth}px`;
     container.style.top = `${Math.random() * root.clientHeight}px`;
     selected = selected === n ? c : n;
-    let world = make2DProjection(proj.width(), proj.height(), !proj.isOffscreen());
-    world = matrixMultiply3x3(makeTranslation3x3(proj.width()/2, proj.height()/2), world);
+    let world = make2DProjection(
+      proj.width(),
+      proj.height(),
+      !proj.isOffscreen()
+    );
+    world = matrixMultiply3x3(
+      makeTranslation3x3(proj.width() / 2, proj.height() / 2),
+      world
+    );
     as.setWorldTransform(world);
     as.restart(selected);
   };
