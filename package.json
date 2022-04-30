@@ -26,8 +26,7 @@
     "parsegraph-smoothstep": "^1.4.5",
     "parsegraph-spotlightpainter": "^2.3.11",
     "parsegraph-timing": "^1.4.16",
-    "parsegraph-timingbelt": "^1.7.11",
-    "parsegraph-window": "^1.8.11"
+    "parsegraph-timingbelt": "^1.7.11"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",
