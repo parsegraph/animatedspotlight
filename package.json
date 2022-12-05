@@ -16,12 +16,11 @@
   "homepage": "https://github.com/parsegraph/animatedspotlight#readme",
   "dependencies": {
     "parsegraph-animator": "^1.5.8",
-    "parsegraph-color": "^1.4.7",
     "parsegraph-layout": "^1.13.6",
     "parsegraph-lerp": "^1.5.9",
-    "parsegraph-projector": "^1.14.2",
+    "parsegraph-projector": "^1.14.3",
     "parsegraph-smoothstep": "^1.4.5",
-    "parsegraph-spotlightpainter": "^2.3.12"
+    "parsegraph-spotlightpainter": "^2.3.13"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",
