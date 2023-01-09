@@ -1,6 +1,6 @@
 {
   "name": "parsegraph-animatedspotlight",
-  "version": "2.0.43",
+  "version": "2.0.44",
   "description": "animatedspotlight",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
