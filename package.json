@@ -17,15 +17,15 @@
   "dependencies": {
     "parsegraph-animator": "^1.5.9",
     "parsegraph-color": "^1.4.10",
-    "parsegraph-layout": "^1.13.10",
+    "parsegraph-layout": "^1.13.11",
     "parsegraph-lerp": "^1.5.10",
     "parsegraph-matrix": "^1.4.13",
     "parsegraph-method": "^1.4.23",
-    "parsegraph-projector": "^1.14.4",
+    "parsegraph-projector": "^1.14.6",
     "parsegraph-smoothstep": "^1.4.6",
     "parsegraph-spotlightpainter": "^2.3.14",
     "parsegraph-timing": "^1.4.17",
-    "parsegraph-timingbelt": "^1.7.14"
+    "parsegraph-timingbelt": "^1.7.15"
   },
   "devDependencies": {
     "@babel/cli": "^7.20.7",
@@ -50,8 +50,8 @@
     "jest-environment-jsdom": "^29.3.1",
     "jsdom": "^20.0.3",
     "jsdom-global": "^3.0.2",
-    "parsegraph-checkglerror": "^1.5.4",
-    "parsegraph-log": "^1.7.4",
+    "parsegraph-checkglerror": "^1.5.5",
+    "parsegraph-log": "^1.9.0",
     "prettier": "^2.8.1",
     "raw-loader": "^4.0.2",
     "source-map-loader": "^4.0.1",
@@ -64,7 +64,7 @@
     "webpack-cli": "^5.0.1"
   },
   "peerDependencies": {
-    "parsegraph-checkglerror": "^1.5.4",
-    "parsegraph-log": "^1.7.4"
+    "parsegraph-checkglerror": "^1.5.5",
+    "parsegraph-log": "^1.9.0"
   }
 }
