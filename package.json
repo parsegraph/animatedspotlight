@@ -17,16 +17,16 @@
   "dependencies": {
     "parsegraph-animator": "^1.5.10",
     "parsegraph-color": "^1.4.12",
-    "parsegraph-direction": "^2.2.1",
-    "parsegraph-layout": "^1.13.14",
+    "parsegraph-direction": "^2.2.3",
+    "parsegraph-layout": "^1.13.16",
     "parsegraph-lerp": "^1.5.11",
     "parsegraph-matrix": "^1.4.15",
     "parsegraph-method": "^1.4.25",
-    "parsegraph-projector": "^1.14.6",
+    "parsegraph-projector": "^1.14.8",
     "parsegraph-smoothstep": "^1.4.8",
-    "parsegraph-spotlightpainter": "^2.3.14",
-    "parsegraph-timing": "^1.4.17",
-    "parsegraph-timingbelt": "^1.8.1"
+    "parsegraph-spotlightpainter": "^2.3.16",
+    "parsegraph-timing": "^1.4.19",
+    "parsegraph-timingbelt": "^1.8.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.20.7",
