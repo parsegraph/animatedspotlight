@@ -18,7 +18,7 @@
     "parsegraph-animator": "^1.5.11",
     "parsegraph-color": "^1.4.13",
     "parsegraph-direction": "^2.3.0",
-    "parsegraph-layout": "^1.14.0",
+    "parsegraph-layout": "^1.15.0",
     "parsegraph-lerp": "^1.5.12",
     "parsegraph-matrix": "^1.4.16",
     "parsegraph-method": "^1.4.26",
