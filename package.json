@@ -17,7 +17,7 @@
   "dependencies": {
     "parsegraph-animator": "^1.5.11",
     "parsegraph-color": "^1.4.13",
-    "parsegraph-layout": "^1.16.1",
+    "parsegraph-layout": "^1.16.2",
     "parsegraph-lerp": "^1.5.12",
     "parsegraph-matrix": "^1.4.16",
     "parsegraph-method": "^1.4.26",
